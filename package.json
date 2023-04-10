@@ -1,0 +1,19 @@
+{
+  "name": "funavegi",
+  "version": "1.0.0",
+  "description": "funavegi website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatouProg/funavegi.git"
+  },
+  "author": "Katou Prog.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatouProg/funavegi/issues"
+  },
+  "homepage": "https://github.com/KatouProg/funavegi#readme"
+}
