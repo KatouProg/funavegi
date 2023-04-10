@@ -7,8 +7,8 @@
     position: relative;
     background-color: $colour-primary;
     color: white;
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     position: fixed;
     top: 5vh; 
@@ -18,9 +18,15 @@
     cursor: pointer;
   }
   
+  .menu_title {
+    position: fixed;
+    top: 11vh; 
+    right: 6.7vw; 
+  }
+
   .background {
-    height: 4rem;
-    width: 4rem;
+    height: 2.3rem;
+    width: 2.3rem;
     border-radius: 50%;
     position: fixed;
     top: 5.5vh; 
@@ -56,6 +62,7 @@
 
   .link_subtitle {
     font-size: 20px;
+    margin-bottom: 2.5rem;
   }
   
   .item {
@@ -110,7 +117,7 @@
   .icon,
   .icon::before,
   .icon::after {
-    width: 3rem;
+    width: 1.2rem;
     height: 2px;
     background-color: white;
     display: inline-block;
@@ -125,10 +132,10 @@
   }
   
   .icon::before {
-    top: -0.8rem;
+    top: -0.5rem;
   }
   .icon::after {
-    top: 0.8rem;
+    top: 0.5rem;
   }
   
   .button:hover icon:before {

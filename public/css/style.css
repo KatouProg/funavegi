@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,15 +14,35 @@
 }
 
 body {
-  font-family: "Amatic SC", cursive;
+  font-family: "Noto Sans JP", sans-serif;
   color: #008036;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 100;
-  line-height: 1.7;
+  line-height: 1.2;
+}
+
+a {
+  font-family: "Amatic SC", cursive;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.menu_title {
+  font-family: "Amatic SC", cursive;
+  font-weight: 100;
+  font-size: 1.6rem;
 }
 
 header {
   display: flex;
+  justify-content: center;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 70%;
 }
 
 /* hamburger */
@@ -33,8 +54,8 @@ header {
   position: relative;
   background-color: #008036;
   color: white;
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   position: fixed;
   top: 5vh;
@@ -44,9 +65,15 @@ header {
   cursor: pointer;
 }
 
+.menu_title {
+  position: fixed;
+  top: 11vh;
+  right: 6.7vw;
+}
+
 .background {
-  height: 4rem;
-  width: 4rem;
+  height: 2.3rem;
+  width: 2.3rem;
   border-radius: 50%;
   position: fixed;
   top: 5.5vh;
@@ -81,6 +108,7 @@ header {
 
 .link_subtitle {
   font-size: 20px;
+  margin-bottom: 2.5rem;
 }
 
 .item {
@@ -131,7 +159,7 @@ header {
 .icon,
 .icon::before,
 .icon::after {
-  width: 3rem;
+  width: 1.2rem;
   height: 2px;
   background-color: white;
   display: inline-block;
@@ -146,11 +174,11 @@ header {
 }
 
 .icon::before {
-  top: -0.8rem;
+  top: -0.5rem;
 }
 
 .icon::after {
-  top: 0.8rem;
+  top: 0.5rem;
 }
 
 .button:hover icon:before {
