@@ -7,12 +7,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 1050px;
-  width: 90%;
-  margin: auto;
-}
-
 body {
   font-family: "Noto Sans JP", sans-serif;
   color: #008036;
@@ -33,6 +27,73 @@ a {
   font-size: 1.6rem;
 }
 
+.hero_title {
+  position: absolute;
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  text-align: end;
+  line-height: 4rem;
+  font-weight: 400;
+  top: 92%;
+  right: 1%;
+}
+.hero_title span {
+  background-color: #008036;
+}
+
+.scrollText {
+  font-family: "Amatic SC", cursive;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #008036;
+}
+
+.scroll {
+  position: relative;
+}
+
+.scrolldown1 {
+  position: absolute;
+  left: 50%;
+  bottom: 65%;
+  height: 50px;
+}
+.scrolldown1 span {
+  position: absolute;
+  left: -15px;
+  top: -55%;
+  color: #008036;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+.scrolldown1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 30px;
+  background: #008036;
+  animation: pathmove 1.4s ease-in-out infinite;
+  opacity: 0;
+}
+
+@keyframes pathmove {
+  0% {
+    height: 0;
+    top: 0;
+    opacity: 0;
+  }
+  30% {
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    height: 0;
+    top: 50px;
+    opacity: 0;
+  }
+}
 .loader {
   border: 16px solid #f3f3f3; /* Light grey */
   border-top: 16px solid #008036; /* Dark Green */
@@ -238,6 +299,54 @@ header {
   max-width: 1050px;
   width: 90%;
   margin: auto;
+}
+
+/* ********** HERO ********** */
+.hero {
+  position: relative;
+  margin-bottom: 11rem;
+}
+
+.background_img {
+  width: 100%;
+}
+
+.eggplant {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  right: 13%;
+  z-index: 1;
+}
+
+.pumpkin {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  right: 3%;
+  top: -5%;
+}
+
+.strawberry {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 0;
+  top: 90%;
+}
+
+.carot {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 2%;
+  top: 77%;
+  z-index: 1;
+}
+
+/* ********** SCROLL EFFECT ********** */
+.scroll {
+  padding-top: 15rem;
 }
 
 /*# sourceMappingURL=style.css.map */

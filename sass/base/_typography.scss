@@ -22,3 +22,26 @@ a {
     font-weight: 100;
     font-size: 1.6rem;
 }
+
+.hero_title {
+    position: absolute;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white; 
+    text-align: end; 
+    line-height: 4rem;
+    font-weight: 400;
+    top: 92%; 
+    right: 1%; 
+
+    span {
+        background-color: $colour-primary;
+    }
+}
+
+
+.scrollText {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: $colour-primary;
+}
