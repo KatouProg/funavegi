@@ -232,18 +232,7 @@
 
     <!--  Hide menu on scroll -->
 
-    <script type="text/javascript">
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("menuTitle").style.top = "45px";
-        } else {
-            document.getElementById("menuTitle").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-        }
-    </script>
+    <script type="text/javascript" src="./scrollMenu.js"></script>
 
 </body>
 </html>
