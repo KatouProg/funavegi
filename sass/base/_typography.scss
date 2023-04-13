@@ -45,3 +45,49 @@ a {
     font-size: 1.5em;
     color: $colour-primary;
 }
+
+.section_title {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.section_subtitle {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.news_article--date {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.news_article--text {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.plusBtn {
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+.plusBtn_txt {
+    padding-top: 20px;
+}
