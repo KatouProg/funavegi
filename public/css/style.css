@@ -5,6 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 30%;
 }
 
 body {
@@ -158,9 +163,9 @@ header {
 }
 
 .menu_title {
-  position: fixed;
+  position: absolute;
   top: 12vh;
-  right: 6.6vw;
+  right: 6vw;
 }
 
 .background {

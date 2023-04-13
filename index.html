@@ -20,7 +20,7 @@
                 <span class="icon">&nbsp;</span>
             </label>
             <div class="background">&nbsp;</div>
-            <div class="menu_title">MENU</div>
+            <div class="menu_title" id="menuTitle">MENU</div>
 
             <!-- nav -->
             <nav class="nav">
@@ -229,6 +229,21 @@
         </div>
     </section>
 
+
+    <!--  Hide menu on scroll -->
+
+    <script type="text/javascript">
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("menuTitle").style.top = "45px";
+        } else {
+            document.getElementById("menuTitle").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
 
 </body>
 </html>
