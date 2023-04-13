@@ -97,6 +97,7 @@ a {
 
 .plusBtn_txt {
   padding-top: 20px;
+  margin-bottom: 1rem;
 }
 
 .scroll {
@@ -399,9 +400,10 @@ header {
 .news_container {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 200px;
   bottom: 0;
   left: 0;
+  margin-bottom: 100rem;
 }
 
 .news {
@@ -411,6 +413,20 @@ header {
   width: 6400px;
   height: 198px;
   overflow: hidden;
+  object-fit: none;
+  z-index: -1000;
+  animation: wave 30s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 8s ease -1.25s infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.news2 {
+  position: relative;
+  background: url(../../img/wavePurple2.svg) repeat-x;
+  bottom: -350px;
+  width: 6400px;
+  height: 198px;
+  overflow: hidden;
+  object-fit: none;
   z-index: -1000;
   animation: wave 30s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 8s ease -1.25s infinite;
   transform: translate3d(0, 0, 0);
@@ -465,6 +481,11 @@ header {
   position: absolute;
   top: -10%;
   padding: 0 5%;
+}
+
+.news_content--part2 {
+  position: absolute;
+  top: 280%;
 }
 
 /* ********** SCROLL EFFECT ********** */
