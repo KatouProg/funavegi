@@ -43,6 +43,13 @@
 }
 
 
+/* ********** SCROLL EFFECT ********** */
+
+.scroll {
+    padding-top: 15rem;
+}
+
+
 /* ********** NEWS ********** */
 
 .news_container {
@@ -54,14 +61,16 @@
     margin-bottom: 100rem;
 }
 
+.wave_container {
+    position: absolute;
+}
+
 .news {
     position: relative;
-    background: url(../../img/wavePurple.svg) repeat-x;
-    bottom: 150px;
-    width: 6400px;
+    background: url(../../img/wavee.svg) repeat-x;
+    bottom: 210px;
+    width: 4000px;
     height: 198px;
-    overflow: hidden;
-    object-fit: none;
     z-index: -1000;
     animation: wave 30s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 8s ease -1.25s infinite;;
     transform: translate3d(0, 0, 0);
@@ -69,8 +78,8 @@
 
 .news2 {
     position: relative;
-    background: url(../../img/wavePurple2.svg) repeat-x;
-    bottom: -350px;
+    background: url(../../img/wavee2.svg) repeat-x;
+    bottom: -570px;
     width: 6400px;
     height: 198px;
     overflow: hidden;
@@ -128,6 +137,22 @@
     left: 75%;
 }
 
+.news_illustration--d {
+    position: absolute;
+    width: 22%;
+    height: auto;
+    top: 300%;
+    left: 18%;
+}
+
+.news_illustration--e {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 300%;
+    left: 75%;
+}
+
 .news_content {
     background-color: $colour-primary;
     position: absolute;
@@ -138,10 +163,181 @@
 .news_content--part2 {
     position: absolute;
     top: 280%;
+    margin-top: 20rem;
+    justify-content: center;
+    padding: 0 20px;
 }
 
-/* ********** SCROLL EFFECT ********** */
+.shopImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
 
-.scroll {
-    padding-top: 15rem;
+.img_subtitle {
+    padding-bottom: 2rem;
+}
+
+
+/* ********** CONCEPT ********** */
+
+.concept_container {
+    position: absolute;
+    margin-top: 10rem;
+    margin-bottom: 50rem;
+    background-color: $colour-primary;
+    padding: 2rem 2rem 4rem 2rem;
+    width: 85%;
+    border-radius: 0 20px 20px 0;
+}
+
+.titleSubtitle_container {
+    display: flex;
+    align-items: center;
+}
+
+.corn {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: -7%;
+    left: 60%;
+}
+
+.kinoko {
+    position: absolute;
+    width: 19%;
+    height: auto;
+    top: -10%;
+    left: 90%;
+}
+
+.mushroom {
+    position: absolute;
+    width: 9%;
+    height: auto;
+    top: -2%;
+    left: 100%;
+}
+
+.boss {
+    width: 70%;
+    height: auto;
+}
+
+.concept_img {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 94%;
+    left: 40%;
+}
+
+
+/* ********** RECOMMEND ********** */
+
+
+.recommend_container {
+    position: relative;
+    margin-top: 176rem;
+    text-align: center;
+}
+
+
+/* ********** STORE ********** */
+
+.store_container {
+    position: absolute;
+    margin-top: 10rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.garlic {
+    width: 8%;
+    height: auto;
+}
+
+.potato {
+    width: 11%;
+    height: auto; 
+}
+
+.cabagge {
+    width: 25%;
+    height: auto; 
+}
+
+.echalote {
+    width: 25%;
+    height: auto;
+}
+
+.vegetable4 {
+    position: relative;
+    text-align: end;
+    padding: 1rem;
+}
+
+.store_img {
+    width: 100%;
+    height: auto;
+}
+
+.store_illustration {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 28%;
+    left: 10%;
+}
+
+.adressCard {
+    position: relative;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.84);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.84);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.84);
+    border-radius: 25px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+.carot2 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 65%;
+    left: 65%;
+}
+
+.map {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ********** DELI ********** */
+
+.deli_container {
+    position: absolute;
+    margin-top: 600rem;
+}
+
+/* ********** PARTNER ********** */
+
+.partner_container {
+    position: absolute;
+    margin-top: 700rem;
+}
+
+
+.line_container {
+    position: absolute;
+    margin-top: 900rem;
 }
