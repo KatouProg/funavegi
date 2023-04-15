@@ -149,3 +149,79 @@ a {
     line-height: 1.8em;
     font-weight: 400;
 }
+
+.partner_title {
+    font-size: 0.85em;
+    margin-bottom: 1rem;
+}
+
+.partner_info {
+    font-size: 0.85em;
+}
+
+.partner_infoPlus {
+    font-size: 0.75em;
+}
+
+.line_title {
+    color: $colour-primary;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.line_subtitle {
+    color: $colour-primary;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.line_desc {
+    color: $colour-primary;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.line_list_element {
+    color: $colour-primary;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.insta_desc {
+    color: $colour-primary;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.form_part {
+    color: white;
+}
+
+.contact_title {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.contact_subtitle {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+ input {
+    font-size: 1.2rem;
+    color: $colour-tertiary;
+ }
+
+ textarea {
+    font-size: 1.2rem;
+    color: $colour-tertiary;
+ }
