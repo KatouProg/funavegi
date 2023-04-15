@@ -337,6 +337,7 @@ header {
   color: white;
   height: 3rem;
   width: 3rem;
+  border: 2px solid white;
   border-radius: 50%;
   position: fixed;
   top: 5vh;
@@ -668,7 +669,7 @@ header {
   margin-bottom: 50rem;
   background-color: #008036;
   padding: 2rem 2rem 4rem 2rem;
-  width: 85%;
+  width: 90%;
   border-radius: 0 20px 20px 0;
 }
 
@@ -870,7 +871,7 @@ header {
 }
 
 .line_btn {
-  width: 25rem;
+  width: 60%;
   height: auto;
   margin-left: 11%;
   margin-right: 11%;
@@ -948,7 +949,7 @@ header {
   position: absolute;
   width: 9%;
   height: auto;
-  top: -40%;
+  top: -20%;
   left: 4%;
 }
 
@@ -956,7 +957,7 @@ header {
   position: absolute;
   width: 10%;
   height: auto;
-  top: -15%;
+  top: -5%;
   left: 12%;
 }
 
@@ -964,7 +965,7 @@ header {
   position: absolute;
   width: 15%;
   height: auto;
-  top: -40%;
+  top: -20%;
   left: 24%;
 }
 
@@ -972,7 +973,7 @@ header {
   position: absolute;
   width: 15%;
   height: auto;
-  top: -30%;
+  top: -15%;
   left: 74%;
 }
 
