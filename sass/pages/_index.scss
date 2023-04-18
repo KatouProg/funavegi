@@ -473,6 +473,8 @@
     position: absolute;
     margin-top: 260rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 2rem 4rem;
     background-color: $colour-primary;
   }
@@ -574,7 +576,6 @@ textarea {
 /* ********** COMPANY ********** */
 
 .company_container {
-    width: 100%;
     position: absolute;
     margin-top: 330rem;
     padding: 2.5rem;
