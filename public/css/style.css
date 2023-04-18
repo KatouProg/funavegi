@@ -905,9 +905,9 @@ header {
 .insta {
   position: absolute;
   margin-top: 208rem;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .insta_logo {
@@ -945,12 +945,12 @@ header {
 
 /* ********** CONTACT ********** */
 .contact_container {
+  width: 100%;
   position: absolute;
   margin-top: 260rem;
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 2rem 4rem;
   background-color: #008036;
 }
 
@@ -976,6 +976,10 @@ header {
   height: auto;
   top: -20%;
   left: 24%;
+}
+
+.contact_form {
+  padding: 0 2rem;
 }
 
 .contact_illustration {
@@ -1023,7 +1027,7 @@ textarea {
 
 .submitBtn {
   cursor: pointer;
-  width: 25rem;
+  width: 15rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
   background: white;
@@ -1051,10 +1055,13 @@ textarea {
   position: absolute;
   margin-top: 330rem;
   padding: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .company_title_container {
-  text-align: center;
   margin-top: 5rem;
 }
 
