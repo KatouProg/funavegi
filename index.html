@@ -241,7 +241,10 @@
             <li class="line_list_element">• イベント情報</li>
             <li class="line_list_element">• フナベジ野菜の美味しいレシピ紹介</li>
         </ul>
-        <a href="#" class="btnLine"><img src="./img/btn-base.png" alt="" class="line_btn" ></a>  <!-- <a href="#" class="lineBtn"><button class="lineBtn--green"></button></a> -->
+        <div class="lineBtn_container">
+            <a href="#" class="btnLine"><img src="./img/btn-base.png" alt="" class="line_btn" ></a>  <!-- <a href="#" class="lineBtn"><button class="lineBtn--green"></button></a> -->
+        </div>
+        
             <img src="./img/とうがらし.png" alt="illustration of a togarashi" class="togarashi">
             <img src="./img/たまねぎかな.png" alt="illustration of an onion" class="onion">
     </section>
@@ -275,28 +278,74 @@
 
         <form action="" class="contact_form">
             <div class="form_part">
-                <label for="name" class="label">お名前</label>
-            <input type="text" id="name" name="name" value="山田　花子">
+                <div class="form_part_title">
+                    <label for="name" class="label">お名前</label>
+                </div>
+                <input type="text" id="name" name="name" value="山田　花子">
             </div>
             
             <div class="form_part">
-                <label for="mail" class="label">メールアドレス</label>
-            <input type="text" id="mail" name="mail" value="funavege@example.com">
+                <div class="form_part_title">
+                    <label for="mail" class="label">メールアドレス</label>
+                </div>
+                <input type="text" id="mail" name="mail" value="funavege@example.com">
             </div>
             
             <div class="form_part">
-                <label for="message" class="label">お問い合わせ内容</label>
-            <textarea id="message" name="message" rows="4" cols="50">
-                お問い合わせ内容をご入力ください
-            </textarea>
+                <div class="form_part_title">
+                    <label for="message" class="label">お問い合わせ内容</label>
+                </div>
+                <textarea id="message" name="message"  rows="4" cols="50">お問い合わせ内容をご入力ください</textarea>
             </div>
             
             <div class="form_part">
-                <input type="submit" value="Submit">
+                <input class="submitBtn" type="submit" value="送信する">
             </div>
             
         </form>
     </section>
+
+    <section class="company_container">
+        <img src="./img/ズッキーニ.png" alt="illustration of a zucchini" class="zucchini">
+        <img src="./img/トマト.png" alt="illustration of a tomato" class="tomato">
+        <div class="company_title_container">
+            <h2 class="title--green">COMPANY</h2>
+        <h3 class="subtitle--green">運営会社</h3>
+        </div>
+        <div class="company_desc--1">
+            <div class="company_desc_title">会社名：</div>
+            <div class="company_desc_info">株式会社エフアイティ</div>
+        </div>
+        <div class="company_desc--1">
+            <div class="company_desc_title">代表者：</div>
+            <div class="company_desc_info">代表取締役　井嶋　武洋</div>
+        </div>
+        <div class="company_desc--2">
+            <div class="company_desc_title">事業内容：</div>
+            <div class="company_desc_info">青果販売業</div>
+        </div>
+        <div class="company_desc--2">
+            <div class="company_desc_title">本社所在地：</div>
+            <div class="company_desc_info">〒274-0053</br>千葉県船橋市豐富町1482-235</div>
+        </div>
+        <div class="company_desc--2">
+            <div class="company_desc_title">設立：</div>
+            <div class="company_desc_info">2021年8月16日</div>
+        </div>
+        <div class="company_desc--2">
+            <div class="company_desc_title">資本金：</div>
+            <div class="company_desc_info">300万円</div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="./img/Logo-B.png" alt="logo of funavegi" class="funavegi_logo">
+        <h3 class="footer_adress">〒274-0053 千葉県船橋市豊富町1482-235</h3>
+        <button class="googleBtn">Google Map</button>
+        <p class="footer_hour">OPEN 10:00-17:00  不定休</p>
+        <p class="footer_tel">TEL 047-456-2750</p>
+        <p class="footer_copyright">Copyright © 株式会社エフアイティ</p>
+    </footer>
 
     <!--  Hide menu on scroll -->
 
