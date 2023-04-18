@@ -55,13 +55,11 @@
 .news_container {
     position: relative;
     width: 100%;
-    height: 200px;
-    bottom: 0;
-    left: 0;
-    margin-bottom: 100rem;
+    height: auto;
+    margin-bottom: 5rem;
 }
 
-.wave_container {
+/*.wave_container {
     position: absolute;
 }
 
@@ -111,57 +109,62 @@
     display:none;
   }
 
-
+*/
 
 .news_illustration--a {
     position: absolute;
-    width: 12%;
+    width: 10%;
     height: auto;
-    top: -110%;
+    top: -7%;
     left: 4%;
+    z-index: 1000;
 }
 
 .news_illustration--b {
     position: absolute;
     width: 11%;
     height: auto;
-    top: -69%;
+    top: -2%;
     left: 60%;
+    z-index: 1000;
 }
 
 .news_illustration--c {
     position: absolute;
     width: 22%;
     height: auto;
-    top: -110%;
+    top: -8%;
     left: 75%;
+    z-index: 1000;
 }
 
 .news_illustration--d {
     position: absolute;
-    width: 22%;
+    width: 20%;
     height: auto;
-    top: 300%;
+    top: 30%;
     left: 18%;
+    z-index: 1000;
 }
 
 .news_illustration--e {
     position: absolute;
     width: 12%;
     height: auto;
-    top: 300%;
+    top: 30%;
     left: 75%;
+    z-index: 1000;
 }
 
 .news_content {
     background-color: $colour-primary;
-    position: absolute;
+    position: relative;
     top: -10%;
-    padding: 0 5%;
+    padding: 2rem;
 }
 
 .news_content--part2 {
-    position: absolute;
+    position: relative;
     top: 280%;
     margin-top: 20rem;
     justify-content: center;
@@ -175,20 +178,22 @@
 }
 
 .img_subtitle {
-    padding-bottom: 2rem;
+    padding: 0 2rem;
 }
 
+.img_desc {
+    padding: 2rem;
+}
 
 /* ********** CONCEPT ********** */
 
 .concept_container {
-    position: absolute;
-    margin-top: 10rem;
-    margin-bottom: 50rem;
+    position: relative;
     background-color: $colour-primary;
     padding: 2rem 2rem 4rem 2rem;
     width: 90%;
     border-radius: 0 20px 20px 0;
+    margin-bottom: 9rem;
 }
 
 .titleSubtitle_container {
@@ -198,7 +203,7 @@
 
 .corn {
     position: absolute;
-    width: 30%;
+    width: 27%;
     height: auto;
     top: -7%;
     left: 60%;
@@ -206,7 +211,7 @@
 
 .kinoko {
     position: absolute;
-    width: 19%;
+    width: 18%;
     height: auto;
     top: -10%;
     left: 90%;
@@ -239,8 +244,8 @@
 
 .recommend_container {
     position: relative;
-    margin-top: 186rem;
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 
@@ -248,7 +253,6 @@
 
 .store_container {
     position: relative;
-    margin-top: 10rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -265,12 +269,12 @@
 }
 
 .cabagge {
-    width: 25%;
+    width: 22%;
     height: auto; 
 }
 
 .echalote {
-    width: 25%;
+    width: 22%;
     height: auto;
 }
 
@@ -283,79 +287,101 @@
 .store_img {
     width: 100%;
     height: auto;
+    margin-top: 2rem;
 }
 
 .store_illustration {
     position: absolute;
     width: 10%;
     height: auto;
-    top: 28%;
+    top: 25%;
     left: 10%;
 }
 
 .adressCard {
-    position: relative;
-    width: 50%;
+    position: absolute;
+    background-color: white;
+    z-index: 1000;
+    top: 55%;
+    left: 15%;
+    width: 70%;
     height: auto;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.84);
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.84);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.84);
+    box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.5);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.5);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(84,58,58,0.5);
     border-radius: 25px;
-    padding: 1rem;
-    margin-bottom: 5rem;
+    padding: 2rem 1rem;
 }
 
 .carot2 {
     position: absolute;
     width: 20%;
     height: auto;
-    top: 65%;
-    left: 65%;
+    top: 66%;
+    left: 75%;
+    z-index: 1000;
 }
 
 .map {
+    position: relative;
+    margin-top: 17rem;
     width: 100%;
 }
 
 /* ********** DELI ********** */
 
 .deli_container {
-    position: absolute;
+    position: relative;
     margin-top: 5rem;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 2rem;
+}
+
+.deli_logo {
+    width: 50%;
+    height: auto;
 }
 
 /* ********** PARTNER ********** */
 
 .partner_container {
-    position: absolute;
-    margin-top: 50rem;
+    position: relative;
+}
+
+.fa-phone {
+    margin-right: 1rem;
+}
+
+.fa-globe {
+    margin-right: 1rem;
 }
 
 .partner_content {
     display: flex;
+    justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    justify-content: center;
     border-top: 1px solid $colour-primary;
+}
+
+.partner_text {
+    justify-content: left;
 }
 
 .partner_content--2 {
     display: flex;
     padding: 1rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border-top: 1px solid $colour-primary;
     border-bottom: 1px solid $colour-primary;
 }
 
 .partner_logo {
-    width: 30%;
+    width: 40%;
     height: auto;
     float: right;
 }
@@ -369,9 +395,9 @@
 /* ********** LINE ********** */
 
 .line_container {
-    position: absolute;
-    margin-top: 120rem;
-    padding-left: 1rem;
+    position: relative;
+    padding-left: 3rem;
+    margin-top: 6rem;
 }
 
 .line_img {
@@ -403,14 +429,14 @@
 .line_btn {
     width: 60%;
     height: auto;
-    margin-top: 2rem;
+    margin: 3rem 0;
 }
 
 .togarashi {
     position: absolute;
     width: 13%;
     height: auto;
-    top: 102%;
+    top: 98%;
     left: 20%;
 }
 
@@ -418,7 +444,7 @@
     position: absolute;
     width: 25%;
     height: auto;
-    top: 107%;
+    top: 103%;
     left: 4%; 
 }
 
@@ -426,11 +452,12 @@
 /* ********** INSTA ********** */
 
 .insta {
-    position: absolute;
-    margin-top: 208rem;
+    position: relative;
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: 14rem;
+    margin-bottom: 10rem;
 }
 
 .insta_logo {
@@ -471,8 +498,7 @@
 
   .contact_container {
     width: 100%;
-    position: absolute;
-    margin-top: 260rem;
+    position: relative;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -483,7 +509,7 @@
     position: absolute;
     width: 9%;
     height: auto;
-    top: -20%;
+    top: -10%;
     left: 4%; 
   }
 
@@ -499,7 +525,7 @@
     position: absolute;
     width: 15%;
     height: auto;
-    top: -20%;
+    top: -15%;
     left: 24%;
   }
 
@@ -509,7 +535,7 @@
 
   .contact_illustration {
     position: absolute;
-    width: 15%;
+    width: 22%;
     height: auto;
     top: -15%;
     left: 74%;
@@ -580,8 +606,7 @@ textarea {
 /* ********** COMPANY ********** */
 
 .company_container {
-    position: absolute;
-    margin-top: 330rem;
+    position: relative;
     padding: 2.5rem;
     text-align: center;
     justify-content: center;
@@ -597,7 +622,7 @@ textarea {
     position: absolute;
     width: 18%;
     height: auto;
-    top: -13%;
+    top: -8%;
     left: 64%;
 }
 
@@ -605,19 +630,21 @@ textarea {
     position: absolute;
     width: 12%;
     height: auto;
-    top: -7%;
+    top: -3%;
     left: 84%;
 }
 
 .company_desc--1 {
     display: flex;
-    padding: 1rem;
+    justify-content: space-between;
+    padding: .5rem;
     border-top: 1px solid $colour-primary;
 }
 
 .company_desc--2  {
     display: flex;
-    padding: 1rem;
+    justify-content: space-between;
+    padding: .5rem;
     border-bottom: 1px solid $colour-primary;
 }
 
@@ -626,8 +653,7 @@ textarea {
 
 footer {
     width: 100%;
-    position: absolute;
-    margin-top: 380rem;
+    position: relative;
     margin-bottom: 10rem;
     text-align: center;
 }
@@ -665,7 +691,6 @@ footer {
 }
 
 .footer_adress {
-    font-size: 1em;
     font-weight: 300;
     padding: 0.5rem;
     margin-top: 1rem;

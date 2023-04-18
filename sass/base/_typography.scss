@@ -66,7 +66,7 @@ a {
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-top: 20px;
 }
 
@@ -74,7 +74,7 @@ a {
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-bottom: 1px solid white;
     padding-bottom: 20px;
 }
@@ -84,7 +84,7 @@ a {
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: end;
 }
 
@@ -96,18 +96,18 @@ a {
 .img_subtitle {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 .img_desc {
     font-size: 0.9em;
-    line-height: 1.8em;
+    line-height: 1.6em;
     font-weight: 400;
 }
 
 .section_desc--concept {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.75em;
     line-height: 1.8em;
     font-weight: 400;
 }
@@ -150,13 +150,21 @@ a {
     font-weight: 400;
 }
 
+.deli_text {
+    color: $colour-primary;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 6rem;
+}
+
 .partner_title {
-    font-size: 0.85em;
-    margin-bottom: 1rem;
+    font-size: 1em;
+    margin-bottom: 1.5rem;
 }
 
 .partner_info {
-    font-size: 0.85em;
+    font-size: 0.7em;
 }
 
 .partner_infoPlus {
@@ -167,35 +175,36 @@ a {
     color: $colour-primary;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 .line_subtitle {
     color: $colour-primary;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 
 .line_desc {
     color: $colour-primary;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .line_list_element {
     color: $colour-primary;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .insta_desc {
     color: $colour-primary;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 0.8em;
+    margin: 2rem 0 3rem 0;
 }
 
 .form_part {
@@ -216,17 +225,43 @@ a {
     font-size: 1.5rem;
     padding-bottom: 20px;
 }
+
+label {
+    font-size: 1rem;
+}
+
  input {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: $colour-tertiary;
  }
 
  textarea {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: $colour-tertiary;
  }
 
  #message {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: $colour-tertiary;
+ }
+
+ .company_desc_title {
+    font-size: 1rem;
+ }
+
+ .company_desc_info {
+    font-size: 1rem;
+ }
+
+.footer_adress {
+    font-weight: 300;
+    font-size: .8em;
+ }
+
+ .footer_tel {
+    font-size: .8em;
+ }
+
+ .footer_copyright {
+    font-size: 0.7em;
  }
