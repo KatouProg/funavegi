@@ -41,10 +41,11 @@ a {
 
 .scrollText {
     font-family: 'Amatic SC', cursive;
-    font-weight: 400;
     font-size: 1.5em;
+    font-weight: 500;
     color: $colour-primary;
 }
+
 
 .section_title {
     color: white;
@@ -96,19 +97,19 @@ a {
 .img_subtitle {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .img_desc {
-    font-size: 0.9em;
+    font-size: 0.6em;
     line-height: 1.6em;
     font-weight: 400;
 }
 
 .section_desc--concept {
     color: white;
-    font-size: 0.75em;
-    line-height: 1.8em;
+    font-size: 0.6em;
+    line-height: 1.6em;
     font-weight: 400;
 }
 
@@ -116,9 +117,9 @@ a {
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-bottom: 20px;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
 }
 
 
@@ -126,7 +127,7 @@ a {
     color: $colour-primary;
     font-family: 'Amatic SC', cursive;
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-top: 2rem;
 }
 
@@ -139,13 +140,13 @@ a {
 }
 
 .card_title {
-    font-size: 0.85em;
+    font-size: 0.6em;
     line-height: 1.8em;
     font-weight: 400;
 }
 
 .card_text {
-    font-size: 0.75em;
+    font-size: 0.6em;
     line-height: 1.8em;
     font-weight: 400;
 }
@@ -154,12 +155,12 @@ a {
     color: $colour-primary;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: .6em;
     margin-bottom: 6rem;
 }
 
 .partner_title {
-    font-size: 1em;
+    font-size: .8em;
     margin-bottom: 1.5rem;
 }
 

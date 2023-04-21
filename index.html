@@ -57,31 +57,49 @@
         <img src="./img/AdobeStock_531589372b.png" alt="illustration of a character" class="news_illustration--b">
         <img src="./img/AdobeStock_531589372.png" alt="illustration of a character" class="news_illustration--c">
 
-        <!--
+        <!-- 
             <div class="wave_container">
             <div class="news"></div>
         </div>
-    -->
-        <div class="news_content">
-            <div class="news_content--part1">
-                <h2 class="section_title">RECENT NEWS</h2>
-                <h3 class="section_subtitle">お知らせ・ブログ</h3>
-            <div class="news_article">
-                <p class="news_article--date">2022.12.10</p>
-                <p class="news_article--text">いよいよ明日12/11(日)、フナベジ初マルシェ「つながるSDGsわわわのわ」開催です</p>
+        -->
+
+        <div id="wrapper">
+            <div class="wave">
+              <p></p>
+            <canvas id="waveCanvas"></canvas>
             </div>
-            <div class="news_article">
-                <p class="news_article--date">2022.12.9</p>
-                <p class="news_article--text">本日、フナベジLINEで当日限定100円クーポン配布しました</p>
+            <div class="wave">
+              <p></p>
+              <canvas id="waveCanvas2"></canvas>
             </div>
-            <div class="news_article">
-                <p class="news_article--date">2022.12.8</p>
-                <p class="news_article--text">出店者紹介vol.4は、焼き芋業界注目の的！「ワイルドな焼き芋屋」さんです</p>
+            <div class="wave">
+                <div class="news_content">
+                    <div class="news_content--part1">
+                        <h2 class="section_title">RECENT NEWS</h2>
+                        <h3 class="section_subtitle">お知らせ・ブログ</h3>
+                    <div class="news_article">
+                        <p class="news_article--date">2022.12.10</p>
+                        <p class="news_article--text">いよいよ明日12/11(日)、フナベジ初マルシェ「つながるSDGsわわわのわ」開催です</p>
+                    </div>
+                    <div class="news_article">
+                        <p class="news_article--date">2022.12.9</p>
+                        <p class="news_article--text">本日、フナベジLINEで当日限定100円クーポン配布しました</p>
+                    </div>
+                    <div class="news_article">
+                        <p class="news_article--date">2022.12.8</p>
+                        <p class="news_article--text">出店者紹介vol.4は、焼き芋業界注目の的！「ワイルドな焼き芋屋」さんです</p>
+                    </div>
+                    <a href="#" class="plusBtn"><p class="plusBtn_txt">一覧を見る</p></a>
+                    </div> 
+                    
+                </div>
+              <canvas id="waveCanvas3"></canvas>
+              
             </div>
-            <a href="#" class="plusBtn"><p class="plusBtn_txt">一覧を見る</p></a>
-            </div> 
-            
         </div>
+
+
+
 
         <!-- 
         <div class="wave_container">
@@ -362,6 +380,7 @@
     <!--  Hide menu on scroll -->
 
     <script type="text/javascript" src="./scrollMenu.js"></script>
+    <script type="text/javascript" src="./test_3.js"></script>
 
 </body>
 </html>

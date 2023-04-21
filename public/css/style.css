@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap");
@@ -48,8 +49,8 @@ a {
 
 .scrollText {
   font-family: "Amatic SC", cursive;
-  font-weight: 400;
   font-size: 1.5em;
+  font-weight: 500;
   color: #008036;
 }
 
@@ -103,19 +104,19 @@ a {
 .img_subtitle {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .img_desc {
-  font-size: 0.9em;
+  font-size: 0.6em;
   line-height: 1.6em;
   font-weight: 400;
 }
 
 .section_desc--concept {
   color: white;
-  font-size: 0.75em;
-  line-height: 1.8em;
+  font-size: 0.6em;
+  line-height: 1.6em;
   font-weight: 400;
 }
 
@@ -123,16 +124,16 @@ a {
   color: white;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding-bottom: 20px;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 .title--green {
   color: #008036;
   font-family: "Amatic SC", cursive;
   font-weight: 600;
-  font-size: 5rem;
+  font-size: 4rem;
   margin-top: 2rem;
 }
 
@@ -145,13 +146,13 @@ a {
 }
 
 .card_title {
-  font-size: 0.85em;
+  font-size: 0.6em;
   line-height: 1.8em;
   font-weight: 400;
 }
 
 .card_text {
-  font-size: 0.75em;
+  font-size: 0.6em;
   line-height: 1.8em;
   font-weight: 400;
 }
@@ -160,12 +161,12 @@ a {
   color: #008036;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 0.6em;
   margin-bottom: 6rem;
 }
 
 .partner_title {
-  font-size: 1em;
+  font-size: 0.8em;
   margin-bottom: 1.5rem;
 }
 
@@ -322,6 +323,35 @@ textarea {
     opacity: 0;
   }
 }
+/*========= レイアウトのためのCSS ===============*/
+/*========= waveを描画するエリア設定 ===============*/
+.wave {
+  position: relative;
+}
+
+.wave:nth-child(1) {
+  background: #fff;
+  height: 1px;
+}
+
+.wave:nth-child(2) {
+  background: #fff;
+  height: 150px;
+}
+
+.wave:nth-child(3) {
+  background: #008036;
+  margin-bottom: 100px;
+  height: 40rem;
+}
+
+.wave canvas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 .loader {
   border: 16px solid #f3f3f3; /* Light grey */
   border-top: 16px solid #008036; /* Dark Green */
@@ -388,8 +418,8 @@ header {
 
 .menu_title {
   position: absolute;
-  top: 13vh;
-  right: 6vw;
+  top: 11.5vh;
+  right: 6.4vw;
 }
 
 .background {
@@ -586,23 +616,24 @@ header {
   margin-bottom: 5rem;
 }
 
-/*.wave_container {
-    position: absolute;
+.wave_container {
+  position: absolute;
 }
 
+/*
 .news {
-    position: relative;
-    background: url(../../img/wavee.svg) repeat-x;
-    bottom: 210px;
+    position: absolute;
+    background: url(../../img/wave.svg) repeat-x;
+    bottom: 0px;
     width: 4000px;
     height: 198px;
     z-index: -1000;
-    animation: wave 30s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 8s ease -1.25s infinite;;
+    animation: wave 25s cubic-bezier(.55,.5,.45,.5) infinite, endWave;
     transform: translate3d(0, 0, 0);
 }
 
 .news2 {
-    position: relative;
+    position: absolute;
     background: url(../../img/wavee2.svg) repeat-x;
     bottom: -570px;
     width: 6400px;
@@ -641,7 +672,7 @@ header {
   position: absolute;
   width: 10%;
   height: auto;
-  top: -7%;
+  top: -3%;
   left: 4%;
   z-index: 1000;
 }
@@ -650,7 +681,7 @@ header {
   position: absolute;
   width: 11%;
   height: auto;
-  top: -2%;
+  top: 3%;
   left: 60%;
   z-index: 1000;
 }
@@ -659,7 +690,7 @@ header {
   position: absolute;
   width: 22%;
   height: auto;
-  top: -8%;
+  top: -3%;
   left: 75%;
   z-index: 1000;
 }
@@ -668,7 +699,7 @@ header {
   position: absolute;
   width: 20%;
   height: auto;
-  top: 30%;
+  top: 38%;
   left: 18%;
   z-index: 1000;
 }
@@ -677,7 +708,7 @@ header {
   position: absolute;
   width: 12%;
   height: auto;
-  top: 30%;
+  top: 36%;
   left: 75%;
   z-index: 1000;
 }
@@ -822,7 +853,7 @@ header {
   position: absolute;
   background-color: white;
   z-index: 1000;
-  top: 55%;
+  top: 50%;
   left: 15%;
   width: 70%;
   height: auto;
@@ -838,7 +869,7 @@ header {
   position: absolute;
   width: 20%;
   height: auto;
-  top: 66%;
+  top: 62%;
   left: 75%;
   z-index: 1000;
 }
@@ -1198,7 +1229,6 @@ footer {
 }
 
 .footer_adress {
-  font-weight: 300;
   padding: 0.5rem;
   margin-top: 1rem;
 }
@@ -1213,7 +1243,6 @@ footer {
 
 .footer_copyright {
   padding: 0.5rem;
-  font-size: 0.7em;
   margin-bottom: 1rem;
 }
 

@@ -45,3 +45,45 @@
     opacity: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+/*========= waveを描画するエリア設定 ===============*/
+
+
+.wave{
+  position: relative;
+}
+
+.wave:nth-child(1){
+  background:#fff;  
+  height: 1px;
+}
+
+.wave:nth-child(2){
+  background:#fff; 
+  height: 150px; 
+}
+
+.wave:nth-child(3){
+  background:#008036; 
+  margin-bottom: 100px;
+  height: 40rem;
+}
+
+.wave canvas{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
