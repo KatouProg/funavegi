@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(0, 128, 54, 0.3);
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
@@ -42,7 +42,7 @@
     top: 20px;
     right: 30px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     text-decoration: none;
     color: $colour-primary;
