@@ -8,20 +8,29 @@
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    z-index: 9999;
   }
   .overlay:target {
     visibility: visible;
     opacity: 1;
   }
   
+  .popup_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .popup {
-    margin: 70px auto;
+    margin: 3rem;
     padding: 20px;
     background: #fff;
     border-radius: 35px;
-    width: 50%;
+    width: 80%;
     position: relative;
     transition: all 5s ease-in-out;
+    z-index: 9999;
   }
   
   .popup_box {
@@ -41,11 +50,15 @@
   .popup .close:hover {
     color: $colour-secondary;
   }
-  .popup .content {
-    max-height: 30%;
-    overflow: hidden;
-  }
+ 
   
+.popup_img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
   @media screen and (max-width: 700px){
     .box{
       width: 70%;
