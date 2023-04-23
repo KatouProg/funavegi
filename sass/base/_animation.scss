@@ -120,27 +120,27 @@
 }
 */
 
-// *************************   ************************ //
+// ************************* ILLUSTRATIONS  ************************ //
 
 /* Animation property */
 .illust {
-  animation: wiggle 2s  linear infinite;
+  animation: wiggle 3s  alternate infinite;
 }
 
 .illust2 {
-  animation: wiggle 2s linear infinite;
+  animation: wiggle 3s alternate infinite;
 }
 
 .illust3 {
-  animation: wiggle 2s linear infinite;
+  animation: wiggle 2s alternate infinite;
 }
 
 .illust4 {
-  animation: wiggle 2s linear infinite;
+  animation: wiggle 3s alternate infinite;
 }
 
 .illust5 {
-  animation: wiggle 2s linear infinite;
+  animation: wiggle 2s alternate infinite;
 }
 
 
@@ -150,21 +150,11 @@
   0%, 7% {
     transform: rotateZ(0);
   }
-  15% {
-    transform: rotateZ(-15deg);
-  }
+  
   20% {
     transform: rotateZ(10deg);
   }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
+  
   40%, 100% {
     transform: rotateZ(0);
   }
@@ -173,24 +163,25 @@
 
 .illust {
   transform-origin: 50% 5em;
+  animation-delay: 6.1s;
 }
 
 .illust2 {
   transform-origin: 50% 5em;
-  animation-delay: 1s; 
+  animation-delay: 8.7s; 
 }
 
 .illust3 {
   transform-origin: 50% 5em;
-  animation-delay: 1.2s;
+  animation-delay: 9s;
 }
 
 .illust4 {
   transform-origin: 50% 5em;
-  animation-delay: 1.3s;
+  animation-delay: 7.3s;
 }
 
 .illust5 {
   transform-origin: 50% 5em;
-  animation-delay: 1.4s;
+  animation-delay: 9.8s;
 }
