@@ -145,6 +145,30 @@ a {
     font-weight: 400;
 }
 
+.popup_box {
+    color: $colour-primary;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 6rem;
+}
+
+.carouselTitle {
+    font-size: 0.8em;
+    line-height: 1.8em;
+    font-weight: 400;
+    text-align: left;
+    padding: 1rem 1.2rem;
+}
+
+.carouselTxt {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-weight: 300;
+    text-align: left;
+    padding: 1rem 1.2rem;
+}
+
 .card_text {
     font-size: 0.6em;
     line-height: 1.8em;

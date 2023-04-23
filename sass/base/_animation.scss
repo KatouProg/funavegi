@@ -10,10 +10,10 @@
 
   span{
     position:  absolute;
-    left:-15px;
+    left:-22px;
     top: -55%;
     color: $colour-primary;
-    font-size: 0.7rem;
+    font-size: 1rem;
     letter-spacing: 0.05em;
   }
 }
@@ -86,4 +86,110 @@
     bottom: 0;
     left:0;
     width: 100%;
+}
+
+
+
+
+.wave--2{
+  position: relative;
+}
+
+.wave--2:nth-child(1){
+  background:#fff;  
+  height: 1px;
+}
+
+.wave--2:nth-child(2){
+  background:#fff; 
+  height: 1px; 
+}
+
+.wave--2:nth-child(3){
+  background:#008036; 
+  margin-bottom: 100px;
+  height: 70rem;
+}
+
+.wave--2 canvas{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+
+
+// *************************   ************************ //
+
+/* Animation property */
+.illust {
+  animation: wiggle 2s  linear infinite;
+}
+
+.illust2 {
+  animation: wiggle 2s linear infinite;
+}
+
+.illust3 {
+  animation: wiggle 2s linear infinite;
+}
+
+.illust4 {
+  animation: wiggle 2s linear infinite;
+}
+
+.illust5 {
+  animation: wiggle 2s linear infinite;
+}
+
+
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+.illust {
+  transform-origin: 50% 5em;
+}
+
+.illust2 {
+  transform-origin: 50% 5em;
+  animation-delay: 1s; 
+}
+
+.illust3 {
+  transform-origin: 50% 5em;
+  animation-delay: 1.2s;
+}
+
+.illust4 {
+  transform-origin: 50% 5em;
+  animation-delay: 1.3s;
+}
+
+.illust5 {
+  transform-origin: 50% 5em;
+  animation-delay: 1.4s;
 }
